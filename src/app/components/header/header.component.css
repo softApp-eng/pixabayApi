@@ -1,0 +1,25 @@
+li.nav-item.active{
+    background-color: #ee5253;
+    border-radius: 10px;
+    padding: 0px 10px;
+    border: #ee5253;
+    pointer-events: none;
+}
+/*navbar */
+.navbar{
+    background-color: #424242;
+    
+}
+.navbar-light .navbar-brand {
+    color:#fff;
+    font-weight: bold;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ee5253;
+    border-radius: 10px;
+}
