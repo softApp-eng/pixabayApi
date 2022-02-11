@@ -1,9 +1,8 @@
 <div class="container mt-2">
-    <div class="card">
-      <div class="card-body">
+    
         <div class="row">
           <div class="col-6">
-            <h3 class="card-title text-danger">Food</h3>
+            <h3 class="card-title text-danger">Cars</h3>
           </div>
           <div class="col-6">
             <div class="float-end">
@@ -25,7 +24,7 @@
         </div>
   
         <div class="row">
-          <div class="col-4" *ngFor="let p of dataSearch | paginate: { itemsPerPage: size, currentPage: currentPage ,totalItems:resulat}">
+          <div class="col-md-4" *ngFor="let p of dataSearch | paginate: { itemsPerPage: size, currentPage: currentPage ,totalItems:resulat}">
             <div *ngIf="dataSearch" class="d-flex justify-content-center mt-2">
               <mat-card class="example-card">
                 <div *ngIf="p.userImageURL; then thenBlock; else elseBlock"></div>
@@ -81,6 +80,5 @@
          
         </div>
       </div>
-    </div>
-  </div>
+    
   
